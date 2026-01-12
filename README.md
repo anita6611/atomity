@@ -328,15 +328,7 @@ Response:
 - Docker containerization
 - Health checks in docker-compose
 
-### What's Simplified
-- **No Authentication**: Real system needs JWT/OAuth2
-- **No API Versioning**: Would add `/v1/` prefix
-- **No Rate Limiting**: Production needs throttling
-- **No Observability**: Would add Micrometer + Prometheus
-- **No Integration Tests**: Included only structure, not test suite
-- **No Pagination**: List endpoints return all results
-- **No Soft Deletes**: Hard deletes only
-- **No Audit Logging**: No created_by/updated_by tracking
+
 
 ## What I Would Improve with More Time
 
